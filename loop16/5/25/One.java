@@ -25,6 +25,10 @@ public class One{
         //     System.out.println(2*a);
         // }
 
+
+// natural number
+
+
 // int sum=0;
 
 // for(int i=1;i<=10;++i){
@@ -74,20 +78,22 @@ public class One{
 //     }
 //   }
 //       System.out.println(hcf);
-
+//     }}
 
 // lcm
 
- int num1=12;
-  int num2=16;
+//  int num1=12;
+//   int num2=16;
 
-  int mx=(num1>num2)?num1:num2;
-  int i=mx;
-  while(true){
-    if(i%num1==0 && i%num2==0){
-        break;
-    }
-    i=i+mx;
-  }
-System.out.print(i);
-    }}
+//   int mx=(num1>num2)?num1:num2;
+//   int i=mx;
+//   while(true){
+//     if(i%num1==0 && i%num2==0){
+//         break;
+//     }
+//     i=i+mx;
+//   }
+// System.out.print(i);
+//     }}
+
+
