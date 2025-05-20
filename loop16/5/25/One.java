@@ -1,6 +1,8 @@
 public class One{
     public static void main(String arr[]){
        
+
+       //table 
     //    int a=1;
 
     //    do{
@@ -10,9 +12,8 @@ public class One{
     //    while(a<=10);
         
         
+
         // while loop
-
-
         // int a=1;
         // while(a<=10){
         //     System.out.println(2*a);
