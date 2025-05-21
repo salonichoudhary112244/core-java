@@ -5,7 +5,7 @@ public class Three{
 
     //   int number=1234;
     //   int res=0;
-    //   while(number!=0){
+    //   while(number>0){
     //     int digit=number%10;
     //     if(res<digit)
     //     res=digit;
@@ -85,19 +85,19 @@ public class Three{
 
 //palindrom
 
-   int num=121;
-   int palindrom=num;
-   int rev=0;
-   while(num!=0){
-    int digit=num%10;
-    rev=rev*10+digit;
-    num=num/10;
-   }
-   if(palindrom==rev){
-    System.out.print("palindrom");
-   }
-   else{
-    System.out.print("not palindrom");
-   }
+  //  int num=121;
+  //  int palindrom=num;
+  //  int rev=0;
+  //  while(num!=0){
+  //   int digit=num%10;
+  //   rev=rev*10+digit;
+  //   num=num/10;
+  //  }
+  //  if(palindrom==rev){
+  //   System.out.print("palindrom");
+  //  }
+  //  else{
+  //   System.out.print("not palindrom");
+  //  }
     }
 }
