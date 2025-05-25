@@ -46,16 +46,32 @@ public class One{
 
 //lcm
 
-int num1=12;
-int num2=18;
+// int num1=12;
+// int num2=18;
 
-int max=(num1>num2)?num1:num2;
-int i=max;
-while(true){
-    if(i%num1==0 && i%num2==0){
-       break;
+// int max=(num1>num2)?num1:num2;
+// int i=max;
+// while(true){
+//     if(i%num1==0 && i%num2==0){
+//        break;
+//     }
+//     i=i+max;
+// }
+// System.out.print(i);
+//     }}
+
+//largest number
+
+int num=23457;
+int res=0;
+
+while(num>0){
+    int digit=num%10;
+    if(res<digit){
+        res=digit;
+        System.out.print(digit);
     }
-    i=i+max;
+    num=num%10;
 }
-System.out.print(i);
+System.out.print(res);
     }}
