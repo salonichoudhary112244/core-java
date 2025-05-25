@@ -2,18 +2,7 @@ public class Four{
     public static void main(String arr[]){
 
 
-        //smallest
-    //   int number=1234;
-    //   int res=9;
-    //   while(number>0){
-    //     int digit=number%10;
-    //     if(res>digit)
-    //     System.out.print(digit);
-    //     number=number/10;
-    //   }
-    //   System.out.print(res);
-
-
+   
 
 // calculaTOR
 

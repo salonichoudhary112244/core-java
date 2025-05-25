@@ -15,6 +15,20 @@ public class Three{
     //   System.out.print(res);
 
 
+     //smallest
+
+     
+    //   int number=1234;
+    //   int res=9;
+    //   while(number>0){
+    //     int digit=number%10;
+    //     if(res>digit)
+    //     System.out.print(digit);
+    //     number=number/10;
+    //   }
+    //   System.out.print(res);
+
+
 
 //reverse
 //   int number=1234;

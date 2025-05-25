@@ -62,16 +62,32 @@ public class One{
 
 //largest number
 
-int num=23457;
-int res=0;
+// int num=23457;
+// int res=0;
+
+// while(num>0){
+//     int digit=num%10;
+//     if(res<digit){
+//         res=digit;
+//         System.out.print(digit);
+//     }
+//     num=num/10;
+// }
+// System.out.print(res);
+//     }}
+
+
+//smallest number
+
+int num=1234534;
+int res=9;
 
 while(num>0){
     int digit=num%10;
-    if(res<digit){
+    if(res>digit)
         res=digit;
         System.out.print(digit);
-    }
-    num=num%10;
+        num=num/10;
 }
 System.out.print(res);
     }}
