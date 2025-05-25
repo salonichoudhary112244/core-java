@@ -79,15 +79,29 @@ public class One{
 
 //smallest number
 
-int num=1234534;
-int res=9;
+// int num=1234534;
+// int res=9;
 
-while(num>0){
-    int digit=num%10;
-    if(res>digit)
-        res=digit;
-        System.out.print(digit);
-        num=num/10;
+// while(num>0){
+//     int digit=num%10;
+//     if(res>digit)
+//         res=digit;
+//         System.out.print(digit);
+//         num=num/10;
+// }
+// System.out.print(res);
+//     }}
+
+//power base
+
+
+int power=2;
+int base=4;
+int ans=1;
+
+for(int i=1; i<=power;i++){
+    ans=ans*base;
+    System.out.print(ans);
+
 }
-System.out.print(res);
     }}
