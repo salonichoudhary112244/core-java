@@ -1,4 +1,4 @@
-// public class One{
+//    public class One{
 //     public static void main (String arr[]){
        
        
@@ -106,27 +106,33 @@
 // }
 //     }}
 
-// import java.util.scanner;
-// public class One
-// {
-//     public static void main(String ar[])
-//     {
-//         Scanner obj=new scanner(System.in);
-//         System.out.Println("enter value");
+
+// input lene ke liye
+
+
+// import java.util.Scanner;
+// public class One{
+//     public static void main(String arr[]){
+//         Scanner obj = new Scanner(System.in);
+//         System.out.println("enter value");
 //         int a;
 //         a=obj.nextInt();
 //         System.out.println(a);
-//         // System.out.println("hello");
-//     }}
+//     }
+// }
 
 
 import java.util.Scanner;
 public class One{
     public static void main(String arr[]){
-        Scanner obj = new Scanner(System.in);
-        System.out.println("enter value");
-        int a;
-        a=obj.nextInt();
-        System.out.println(a);
+   int c=7;
+   int d=3;
+
+        System.out.println (c&d);
+         System.out.println (c|d);
+        System.out.println (c^d);
+
     }
 }
+
+
