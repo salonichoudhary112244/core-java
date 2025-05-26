@@ -95,6 +95,6 @@ public class One{
 //     i=i+mx;
 //   }
 // System.out.print(i);
-    }}
+   // }}
 
 
