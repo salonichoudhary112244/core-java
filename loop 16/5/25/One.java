@@ -4,7 +4,6 @@ public class One{
 
      // => table
 
-
     //    int a=1;
     //    do{
     //      System.out.println(2*a);
@@ -12,9 +11,9 @@ public class One{
     //    }
     //    while(a<=10);
         
-        
+    
+        // =>  while loop
 
-        // while loop
         // int a=1;
         // while(a<=10){
         //     System.out.println(2*a);
@@ -26,7 +25,7 @@ public class One{
         // for(int i=1;i<=10;i++){
         //     System.out.println(2*a);
         // }
-
+    
 
 // natural number
 

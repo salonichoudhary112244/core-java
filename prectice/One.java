@@ -222,11 +222,38 @@
 //  }
 // }
 
-  int a=1;
-       do{
-         System.out.println(2*a);
-         a++;
-       }
-       while(a<=10);
-        
+
+// => table
+
+//   int a=1;
+//        do{
+//          System.out.println(2*a);
+//          a++;
+//        }
+//        while(a<=10);
+//     }}
+
+// => while loop se table print
+// int a=1;
+// while(a<=10){
+//    System.out.println(2*a);
+//    a++;
+// }
+
+
+//=> for
+
+// int a=1;
+// for(int i=1; i<=10; i++){
+//    System.out.println(2*a);
+// }
+//     }}
+
+// => natural num 
+
+int sum=0;
+for(int i=1;i<=10;++i){
+   sum=sum+i;
+}
+System.out.println(sum);
     }}
