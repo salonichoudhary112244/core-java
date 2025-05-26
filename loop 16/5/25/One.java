@@ -2,9 +2,10 @@ public class One{
     public static void main(String arr[]){
        
 
-       //table 
-    //    int a=1;
+     // => table
 
+
+    //    int a=1;
     //    do{
     //      System.out.println(2*a);
     //      a++;
@@ -95,6 +96,6 @@ public class One{
 //     i=i+mx;
 //   }
 // System.out.print(i);
-//     }}
+    }}
 
 
