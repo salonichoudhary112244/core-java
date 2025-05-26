@@ -1,5 +1,5 @@
-public class One{
-    public static void main (String arr[]){
+// public class One{
+//     public static void main (String arr[]){
        
        
 // natural no
@@ -95,13 +95,38 @@ public class One{
 //power base
 
 
-int power=2;
-int base=4;
-int ans=1;
+// int power=2;
+// int base=4;
+// int ans=1;
 
-for(int i=1; i<=power;i++){
-    ans=ans*base;
-    System.out.print(ans);
+// for(int i=1; i<=power;i++){
+//     ans=ans*base;
+//     System.out.print(ans);
 
+// }
+//     }}
+
+// import java.util.scanner;
+// public class One
+// {
+//     public static void main(String ar[])
+//     {
+//         Scanner obj=new scanner(System.in);
+//         System.out.Println("enter value");
+//         int a;
+//         a=obj.nextInt();
+//         System.out.println(a);
+//         // System.out.println("hello");
+//     }}
+
+
+import java.util.Scanner;
+public class One{
+    public static void main(String arr[]){
+        Scanner obj = new Scanner(System.in);
+        System.out.println("enter value");
+        int a;
+        a=obj.nextInt();
+        System.out.println(a);
+    }
 }
-    }}
