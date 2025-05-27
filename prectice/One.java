@@ -299,11 +299,22 @@
 // System.out.println(i);
 //     }}
 
- int a=2;
-         int d=3;
-         int n=5;
-         for(int i=0;i<=10;i++){
-                 System.out.print(a+i*d);
+//  int a=2;
+//          int d=3;
+//          int n=5;
+//          for(int i=0;i<=10;i++){
+//                  System.out.print(a+i*d);
 
-         }
+//          }
+
+int num=123;
+int max=0;
+while(num>0){
+        int digit=num%10;
+        if(digit>max){
+                max=digit;
+        }
+        num=num/10;
+}
+System.out.println(max);
     }}
