@@ -307,14 +307,22 @@
 
 //          }
 
-int num=123;
-int max=0;
-while(num>0){
-        int digit=num%10;
-        if(digit>max){
-                max=digit;
-        }
-        num=num/10;
+// int num=123;
+// int max=0;
+// while(num>0){
+//         int digit=num%10;
+//         if(digit>max){
+//                 max=digit;
+//         }
+//         num=num/10;
+// }
+// System.out.println(max);
+
+
+int n=5;
+int res=1;
+for(int i=1;i<=n;i++){
+        res=res*i;
 }
-System.out.println(max);
+System.out.println(res);
     }}
