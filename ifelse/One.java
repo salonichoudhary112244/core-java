@@ -26,10 +26,10 @@
 
 
 
-public class One
-{
-    public static void main {String ar[]}
-    {
-      System.out.Println{"hello"};
-    }
-}
+// public class One
+// {
+//     public static void main {String ar[]}
+//     {
+//       System.out.Println{"hello"};
+//     }
+// }
