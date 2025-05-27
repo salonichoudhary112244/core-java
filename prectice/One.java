@@ -271,18 +271,18 @@
 
 // => hcf
 
-int num1=12;
-int num2=16;
-int hcf=1;
+// int num1=12;
+// int num2=16;
+// int hcf=1;
 
-for(int i=1;i<=num1 && i<=num2; ++i){
-   if(num1%i==0 && num2%i==0){
-      hcf=i;
-   }
-}
-   System.out.println(hcf);
+// for(int i=1;i<=num1 && i<=num2; ++i){
+//    if(num1%i==0 && num2%i==0){
+//       hcf=i;
+//    }
+// }
+//    System.out.println(hcf);
 
-    }}
+//     }}
 
 // => lcm
 
@@ -299,4 +299,11 @@ for(int i=1;i<=num1 && i<=num2; ++i){
 // System.out.println(i);
 //     }}
 
+ int a=2;
+         int d=3;
+         int n=5;
+         for(int i=0;i<=10;i++){
+                 System.out.print(a+i*d);
 
+         }
+    }}
