@@ -4,13 +4,13 @@ public class Two{
 
          // arthmetric series
 
-         int a=2;
-         int d=3;
-         int n=5;
-         for(int i=0;i<=10;i++){
-                 System.out.print(a+i*d);
+        //  int a=2;
+        //  int d=3;
+        //  int n=5;
+        //  for(int i=0;i<=10;i++){
+        //          System.out.print(a+i*d);
 
-         }
+        //  }
           
 //gp
 
@@ -47,5 +47,21 @@ public class Two{
 //     System.out.println(a);
 //     a=r*a;
 // }
+
+// nth=a*r^(n-1);
+// a=first term;
+// r=common ratio;
+// n=5;
+
+//AP SEries
+
+int a=1;
+int n=6;
+int d=2;
+int nterm=0;
+for(int i=a; i<=n;i++){
+    nterm = a+i*d;
+    System.out.println(nterm);
+}
     }
 }
