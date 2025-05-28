@@ -5,7 +5,7 @@ public class Three{
 
     //   int number=1234;
     //   int res=0;
-    //   while(number>0){
+    //   while(number!=0){
     //     int digit=number%10;
     //     if(res<digit)
     //     res=digit;
@@ -20,7 +20,7 @@ public class Three{
      
     //   int number=1234;
     //   int res=9;
-    //   while(number>0){
+    //   while(number!=0){
     //     int digit=number%10;
     //     if(res>digit)
     //     System.out.print(digit);
