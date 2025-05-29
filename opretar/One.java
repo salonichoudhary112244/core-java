@@ -12,11 +12,15 @@ public class One{
 
 
 
-    int c=7;
-    int d=3;
-    System.out.println(c&d);
-    System.out.println(c|d);
-    System.out.println(c^d);
+    // int c=7;
+    // int d=3;
+    // System.out.println(c&d);
+    // System.out.println(c|d);
+    // System.out.println(c^d);
+
+
+
+    System.out.print("hello");
     }
 
 }
