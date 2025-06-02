@@ -25,17 +25,34 @@ public class One{
 
        //dynamic initization
        
-       Scanner obj=new Scanner(System.in);
+    //    Scanner obj=new Scanner(System.in);
 
-       System.out.print("enter the size of arrey");
-       int size=obj.nextInt();
-       int arr[]=new int[size];
-       System.out.print("enter the value of arrey");
-       for(int i=0; i<arr.length;++i){
+    //    System.out.print("enter the size of arrey");
+    //    int size=obj.nextInt();
+    //    int arr[]=new int[size];
+    //    System.out.print("enter the value of arrey");
+    //    for(int i=0; i<arr.length;++i){
+    //     arr[i]=obj.nextInt();
+    //    }
+    //    for(int arr1:arr){
+    //     System.out.println(arr1);
+    //    }
+
+
+
+
+
+
+    Scanner obj=new Scanner(System.in);
+    System.out.print("enter the size of arrey");
+    int size=obj.nextInt();
+    int arr[]=new int[size];
+    System.out.print("enter the value of arrey");
+    for(int i=0;i<arr.length;++i){
         arr[i]=obj.nextInt();
-       }
-       for(int arr1:arr){
+    }
+    for(int arr1:arr){
         System.out.println(arr1);
-       }
+    }
     }
 }
