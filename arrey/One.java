@@ -42,6 +42,23 @@ public class One{
 
 
 
+//user se input
+    // Scanner obj=new Scanner(System.in);
+    // System.out.print("enter the size of arrey");
+    // int size=obj.nextInt();
+    // int arr[]=new int[size];
+    // System.out.print("enter the value of arrey");
+    // for(int i=0;i<arr.length;++i){
+    //     arr[i]=obj.nextInt();
+    // }
+
+    // //for each arrey
+    // for(int arr1:arr){
+    //     System.out.println(arr1);
+    // }
+
+    
+//sum of arrey
 
     Scanner obj=new Scanner(System.in);
     System.out.print("enter the size of arrey");
@@ -54,5 +71,23 @@ public class One{
     for(int arr1:arr){
         System.out.println(arr1);
     }
+    int sum=0;
+    for(int i=0;i<arr.length;++i){
+        sum=sum+arr[i];
+    }
+    System.out.print(sum);
+
+
+
+    // Scanner obj=new Scanner(System.in);
+    // System.out.print("enter the size of arrey");
+    // int size=obj.nextInt();
+    // int arr[]=new int[size];
+    // System.out.print("enter the value of arrey");
+    // for(int i=0;i<arr.length;++i){
+    //    arr=arr1;
+    // }
+    
+
     }
 }
