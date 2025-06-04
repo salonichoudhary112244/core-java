@@ -1,5 +1,5 @@
    public class One{
-    public static void main (String arr[]){
+    public static void main (String ar[]){
        
        
 //  => natural no
@@ -325,4 +325,21 @@
 //         res=res*i;
 // }
 // System.out.println(res);
+
+int arr[]={1,2,3,2,1};
+boolean palindrom=true;
+int n=arr.length;
+
+for(int i=0;i<n-1;++i){
+    if(arr[i]!=arr[n-1-i]){
+        palindrom=false;
+        break;
+    }
+}
+if(palindrom){
+    System.out.print("palindrom");
+}
+else{
+    System.out.print("not palindrom");
+}
     }}

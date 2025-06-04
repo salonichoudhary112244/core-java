@@ -29,8 +29,10 @@ public class One{
 
     //    System.out.print("enter the size of arrey");
     //    int size=obj.nextInt();
+
     //    int arr[]=new int[size];
     //    System.out.print("enter the value of arrey");
+
     //    for(int i=0; i<arr.length;++i){
     //     arr[i]=obj.nextInt();
     //    }
@@ -97,18 +99,6 @@ public class One{
 //         System.out.print(i);
 //     }
 
-
-//  palindrom
-
-int arr[]={1,2,1};
-
-while(true){
-       if(arr[i]==arr[size-i-1]){
-        System.out.print("palindrom");
-    }
-    else{
-        System.out.print("not palindrom");
-    }
 
     }
 }
