@@ -60,8 +60,8 @@ int arr[]={18,62,43,4,35};
 int n=arr.length;
 
 for(int i=0;i<n-1;++i){
-    for(int j=i+1;j<n-2;++j){
-        if(arr[j]>arr[j+1]){
+    for(int j=i+1;j<n-1;++j){
+        if(arr[i]>arr[j+1]){
             int temp=arr[i];
             arr[i]=arr[j];
             arr[j]=temp;
