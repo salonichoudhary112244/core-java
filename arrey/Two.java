@@ -138,20 +138,38 @@ public class Two{
 //gratest 
 
 
-int arr[]={1,4,6,3,8};
-int size=arr.length;
-for(int i=0;i<size-1;++i){
-    for(int j=i+1;j<size;++j){
-        if(arr[i]<arr[j]){
-            int temp=arr[i];
-            arr[i]=arr[j];
-            arr[j]=temp;
-        }
+// int arr[]={1,4,6,3,8};
+// int size=arr.length;
+// for(int i=0;i<size-1;++i){
+//     for(int j=i+1;j<size;++j){
+//         if(arr[i]<arr[j]){
+//             int temp=arr[i];
+//             arr[i]=arr[j];
+//             arr[j]=temp;
+//         }
+//     }
+// }
+// for(int i=0;i<1;++i){
+//     System.out.print(arr[i]);
+// }
+
+
+// move zero
+
+int arr[]={1,0,3,0,1};
+int  n=arr.length;
+int j=0;
+
+for(int i=0;i<n;++i){
+    if(arr[i]!=0){
+        int temp=arr[i];
+        arr[i]=arr[j];
+        arr[j]=temp;
+        j++;
     }
 }
-for(int i=0;i<1;++i){
-    System.out.print(arr[i]);
+for(int a:arr){
+    System.out.print(a);
 }
-
     }
     }
