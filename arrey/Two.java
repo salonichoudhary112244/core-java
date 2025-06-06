@@ -195,15 +195,28 @@ public class Two{
 
 //maximam number
 
+// int arr[]={1,2,4,6,8,9};
+// int n= arr.length;
+// int mx=arr[0];
+
+// for(int i=0;i<n;++i){
+//   if(arr[i]>mx){
+//     mx=arr[i];
+//   }
+// }
+// System.out.print(mx);
+
+
+
 int arr[]={1,2,4,6,8,9};
 int n= arr.length;
-int mx=arr[0];
+int min=arr[0];
 
 for(int i=0;i<n;++i){
-  if(arr[i]>mx){
-    mx=arr[i];
+  if(arr[i]<min){
+    min=arr[i];
   }
 }
-System.out.print(mx);
+System.out.print(min);
     }
     }
