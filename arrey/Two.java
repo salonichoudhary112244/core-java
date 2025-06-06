@@ -207,16 +207,38 @@ public class Two{
 // System.out.print(mx);
 
 
+// minimam number
 
-int arr[]={1,2,4,6,8,9};
-int n= arr.length;
-int min=arr[0];
+// int arr[]={1,2,4,6,8,9};
+// int n= arr.length;
+// int min=arr[0];
 
-for(int i=0;i<n;++i){
-  if(arr[i]<min){
-    min=arr[i];
-  }
-}
-System.out.print(min);
+// for(int i=0;i<n;++i){
+//   if(arr[i]<min){
+//     min=arr[i];
+//   }
+// }
+// System.out.print(min);
+   
+   
+   //move zero 
+
+   int arr[]={1,2,0,3,8,0};
+   int n=arr.length;
+   int j=0;
+
+   for(int i=0;i<n;++i){
+    if(arr[i]!=0){
+      int temp=arr[i];
+      arr[i]=arr[j];
+      arr[j]=temp;
+      j++;
+
+    }
+   }
+    
+    for(int a:arr){
+      System.out.print(a);
+    }
     }
     }
