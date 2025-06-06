@@ -223,22 +223,42 @@ public class Two{
    
    //move zero 
 
-   int arr[]={1,2,0,3,8,0};
-   int n=arr.length;
-   int j=0;
+  //  int arr[]={1,2,0,3,8,0};
+  //  int n=arr.length;
+  //  int j=0;
 
-   for(int i=0;i<n;++i){
-    if(arr[i]!=0){
+  //  for(int i=0;i<n;++i){
+  //   if(arr[i]!=0){
+  //     int temp=arr[i];
+  //     arr[i]=arr[j];
+  //     arr[j]=temp;
+  //     j++;
+
+  //   }
+  //  }
+    
+  //   for(int a:arr){
+  //     System.out.print(a);
+  //   }
+
+
+//second largest
+
+int arr[]={2,5,7,9,8,5};
+int n=arr.length;
+
+for(int i=0;i<n;++i){
+  for(int j=i+1;j<n;++j){
+    if(arr[i]<arr[j]){
       int temp=arr[i];
       arr[i]=arr[j];
       arr[j]=temp;
-      j++;
+    }
+}
+}
+for(int i=1;i<2;++i){
+  System.out.print(arr[i]);
+}
 
-    }
-   }
-    
-    for(int a:arr){
-      System.out.print(a);
-    }
     }
     }
