@@ -321,20 +321,23 @@ public class Two{
 
  int arr[]={3,2,1,2,3};
  int s=arr.length;
-
+ 
  for(int i=0;i<s;++i){
   boolean dup=false;
-  for(int j=i+1;j<s;++j){
+  for(int j=i+1;j<s;++j){  
     if (arr[i]==arr[j] && arr[i]!=-1){
       dup=true;
       arr[j]=-1;
     }
+  }
+  
+  
+     if(dup=true){
+    System.out.print(arr[i]);
+  }
+  
  
-  }
-     if(dup==true){
-    System.out.print(dup);
-  }
- } 
-   
+    }
+
     }
     }
