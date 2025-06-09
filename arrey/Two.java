@@ -280,21 +280,41 @@ public class Two{
 
 // keth largest
 
-int arr[]={1,4,7,2,8,3};
-int k=3;
-int n=arr.length;
+// int arr[]={1,4,7,2,8,3};
+// int k=3;
+// int n=arr.length;
 
-for(int i=0; i<k; ++i){
-  for(int j=i+1; j<n; ++j){
-    if(arr[i]<arr[j]){
-      int temp=arr[i];
-      arr[i]=arr[j];
-      arr[j]=temp;
-    }
-  }}
-  for(int i=2;i<k;++i){
-      System.out.print(arr[i]);
+// for(int i=0; i<k; ++i){
+//   for(int j=i+1; j<n; ++j){
+//     if(arr[i]<arr[j]){
+//       int temp=arr[i];
+//       arr[i]=arr[j];
+//       arr[j]=temp;
+//     }
+//   }}
+//   for(int i=2;i<k;++i){
+//       System.out.print(arr[i]);
+// }
+
+
+//move zero
+
+int arr[]={1,4,0,3,0};
+int j=0;
+int size=arr.length;
+
+for(int i=0;i<size;++i){
+  if(arr[i]!=0){
+    arr[j]=arr[i];
+    j++;
+  }
 }
-
+for(int i=3;i<size;++i){
+    arr[i]=0;
+}
+for(int a:arr){
+  System.out.print(a);
+}
+    
     }
     }
