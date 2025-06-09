@@ -244,20 +244,56 @@ public class Two{
 
 //second largest
 
-int arr[]={2,5,7,9,8,5};
+// int arr[]={2,5,7,9,8,5};
+// int n=arr.length;
+
+// for(int i=0;i<n;++i){
+//   for(int j=i+1;j<n;++j){
+//     if(arr[i]<arr[j]){
+//       int temp=arr[i];
+//       arr[i]=arr[j];
+//       arr[j]=temp;
+//     }
+// }
+// }
+// for(int i=1;i<2;++i){
+//   System.out.print(arr[i]);
+// }
+
+
+//duplicate
+
+// int arr[]={2,5,7,9,8,5};
+// int n=arr.length;
+
+// for(int i=0;i<n;++i){
+//   for(int j=i+1;j<n;++j){
+//     if(arr[i]==1){
+//       arr[j]=-1;
+//     }
+// }
+// }
+// for(int i=0;i<n;++i){
+//   System.out.print(arr[i]);
+// }
+
+
+// keth largest
+
+int arr[]={1,4,7,2,8,3};
+int k=3;
 int n=arr.length;
 
-for(int i=0;i<n;++i){
-  for(int j=i+1;j<n;++j){
+for(int i=0; i<k; ++i){
+  for(int j=i+1; j<n; ++j){
     if(arr[i]<arr[j]){
       int temp=arr[i];
       arr[i]=arr[j];
       arr[j]=temp;
     }
-}
-}
-for(int i=1;i<2;++i){
-  System.out.print(arr[i]);
+  }}
+  for(int i=2;i<k;++i){
+      System.out.print(arr[i]);
 }
 
     }
