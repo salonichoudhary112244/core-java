@@ -299,22 +299,42 @@ public class Two{
 
 //move zero
 
-int arr[]={1,4,0,3,0};
-int j=0;
-int size=arr.length;
+// int arr[]={1,4,0,3,0};
+// int j=0;
+// int size=arr.length;
 
-for(int i=0;i<size;++i){
-  if(arr[i]!=0){
-    arr[j]=arr[i];
-    j++;
-  }
-}
-for(int i=3;i<size;++i){
-    arr[i]=0;
-}
-for(int a:arr){
-  System.out.print(a);
-}
+// for(int i=0;i<size;++i){
+//   if(arr[i]!=0){
+//     arr[j]=arr[i];
+//     j++;
+//   }
+// }
+// for(int i=3;i<size;++i){
+//     arr[i]=0;
+// }
+// for(int a:arr){
+//   System.out.print(a);
+// }
     
+
+ //duplicate
+
+ int arr[]={3,2,1,2,3};
+ int s=arr.length;
+
+ for(int i=0;i<s;++i){
+  boolean dup=false;
+  for(int j=i+1;j<s;++j){
+    if (arr[i]==arr[j] && arr[i]!=-1){
+      dup=true;
+      arr[j]=-1;
+    }
+ 
+  }
+     if(dup==true){
+    System.out.print(dup);
+  }
+ } 
+   
     }
     }
