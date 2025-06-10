@@ -341,21 +341,59 @@ public class Two{
 
 // remove duplicate
 
+//  int arr[]={3,2,1,2,3};
+//  int s=arr.length;
+ 
+//  for(int i=0;i<s;++i){
+//   boolean dup=false;
+//   for(int j=i+1;j<s;++j){  
+//     if (arr[i]==arr[j] && arr[i]!=-1){
+//       dup=true;
+//       arr[j]=-1;
+//     }
+//   }
+//      if(dup=true && arr[i]!=-1){
+//     System.out.print(arr[i]);
+//   }
+//     }
+
+// unique number
+
+//  int arr[]={3,2,1,2,3};
+//  int s=arr.length;
+ 
+//  for(int i=0;i<s;++i){
+//   boolean dup=false;
+//   for(int j=i+1;j<s;++j){  
+//     if (arr[i]==arr[j] && arr[i]!=-1){
+//       dup=true;
+//       arr[j]=-1;
+//     }
+//   }
+//      if(dup !=true && arr[i]!=-1){
+//     System.out.print(arr[i]);
+//   }
+//     }
+
+
+
+// fequency
+
  int arr[]={3,2,1,2,3};
  int s=arr.length;
- 
- for(int i=0;i<s;++i){
-  boolean dup=false;
-  for(int j=i+1;j<s;++j){  
-    if (arr[i]==arr[j] && arr[i]!=-1){
-      dup=true;
-      arr[j]=-1;
-    }
-  }
-     if(dup=true && arr[i]!=-1){
-    System.out.print(arr[i]);
-  }
-    }
 
+ for(int i=0;i<s;++i){
+  int count=1;
+
+  for(int j=i+1;j<s;++j){
+    if(arr[i]==arr[j] && arr[i]!=-1){
+      count++;
+      arr[i]=-1;
+    }
+  }
+  if(arr[i]!=-1){
+  System.out.println(arr[i] +"is" + count);
+ }
+ }
     }
     }
