@@ -24,11 +24,24 @@
 
 // parametar with non return 
 
+// public class One{
+//     static void sum(int a,int b){
+//      System.out.print(a+b);
+//     }
+//     public static void main(String ar[]){
+//     sum(10,11);
+//     }
+// }
+
+
+//parametar with return
+
+
 public class One{
-    static void sum(int a,int b){
-     System.out.print(a+b);
+    static int sum(int a,int b){
+    return a+b;
     }
     public static void main(String ar[]){
-    sum(10,11);
+  System.out.print(  sum(10,11) );
     }
 }
